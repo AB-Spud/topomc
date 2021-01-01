@@ -1,6 +1,6 @@
-from pixline import Coordinates
-from common import decode, progressbar, yaml_open
-import chunk
+from topomc.pixline import Coordinates
+from topomc.common import decode, progressbar, yaml_open
+from topomc import chunk
 
 # builtin chunk heightmap options
 tags = [

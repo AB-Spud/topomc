@@ -5,8 +5,8 @@ import numpy as np
 import os
 import logging
 
-from pixline import Coordinates
-from common import progressbar, yaml_open
+from topomc.pixline import Coordinates
+from topomc.common import progressbar, yaml_open
 
 def draw(data):
 

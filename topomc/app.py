@@ -1,11 +1,11 @@
 import sys, os
 import logging
 
-from common import yaml_open
-import heightmap as hm
-import pixline
-import render
-import heightplane
+from topomc.common import yaml_open
+from topomc import heightmap as hm
+from topomc import pixline
+from topomc import render
+from topomc import heightplane
 
 def run(args):
     try:

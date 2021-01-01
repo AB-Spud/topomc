@@ -1,5 +1,5 @@
 # marching squares algorithm for generating contour data
-from common import progressbar
+from topomc.common import progressbar
 
 class SideHelper:
     def __init__(self, corner1, corner2, x, y):

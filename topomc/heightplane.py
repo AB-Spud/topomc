@@ -1,6 +1,6 @@
-from pixline import Coordinates
+from topomc.pixline import Coordinates
 import logging
-from common import progressbar
+from topomc.common import progressbar
 
 class Topodata:
     def __init__(self, heightmap):
